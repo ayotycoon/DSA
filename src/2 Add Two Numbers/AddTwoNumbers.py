@@ -7,14 +7,12 @@ class ListNode:
         self.val = val
         self.next = None
 
-
 def listNodePrinter(node):
     s = ""
     while node != None:
         if s != "":
             s+=" -> "
         s+=str(node.val)
-        
         node = node.next
     return s
 
@@ -89,7 +87,7 @@ l1.next.next = ListNode(3)
 
 l2 = ListNode(5)
 l2.next = ListNode(6)
-l2.next.next = ListNode(9)
+l2.next.next = ListNode(2)
 
 bruteForceSolution = bruteForce(l1, l2)
 optimized1Solution = optimized1(l1, l2)
