@@ -1,5 +1,5 @@
 
-    
+
 # 1 Two Sum https://leetcode.com/problems/two-sum
 
 def bruteForce(nums, target):
@@ -10,9 +10,10 @@ def bruteForce(nums, target):
             if(i == j):
                 continue
             if(nums[i] + nums[j] == target):
-                return [i,j]
+                return [i, j]
 
     return []
+
 
 def optimized1(nums, target):
     # Time O(N)
@@ -24,7 +25,6 @@ def optimized1(nums, target):
             return [dict[diff], i]
         dict[nums[i]] = i
     return []
-
 
 
 nums = [2, 7, 11, 15]
