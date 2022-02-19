@@ -5,8 +5,8 @@
 from typing import List
 
 
-class TreeNode:
+class Node:
     def __init__(self, val):
         self.val:int = val
-        self.children: List[TreeNode] = None
+        self.children: List[Node] = None
 

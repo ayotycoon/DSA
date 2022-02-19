@@ -1,31 +1,38 @@
-import common.Tree;
-import common.TreeNode;
-
-import java.util.LinkedHashMap;
+import common.tree.Tree;
+import common.Node;
+import common.tree.TreeConfig;
 
 public class Test {
 
+
     public static void main(String[] args){
 
-        var n = new TreeNode(2);
-        var left =  new TreeNode(9);
-        var right = new TreeNode(7);
-        var rightRight = new TreeNode(8);
-        var rightRightRight = new TreeNode(3);
+  var t = Tree.fromTextBlocks(
+          """
+                 2
+              9           7                 6
+   n     n     n     n     n     8     n     n   
+nnnn nn nn nn nn nn nn nn nn nn 3n nn nn nn nn
 
-        rightRight.children = new LinkedHashMap<>();
-        rightRight.children.put(rightRightRight.val,rightRightRight);
+  
+"""
+  );
 
-        right.children = new LinkedHashMap<>();
-        right.children.put(rightRight.val,rightRight);
 
-        n.children = new LinkedHashMap<>();
-        n.children.put(left.val,left);
-        n.children.put(right.val, right);
-       n.children.put(6, new TreeNode(6));
+        var root = new Node(2);
+        var one =  new Node(9);
+        var two = new Node(7).addChildren(new Node(8).addChild(new Node(3)), new Node(7));
+        var three = new Node(0).addChild(new Node(5));
 
-        var tree = new Tree(n);
+
+
+
+        root.addChildren(one,two,three);
+
+
+        var tree = new Tree(root, new TreeConfig('.'));
         System.out.println(tree);
 
     }
+
 }

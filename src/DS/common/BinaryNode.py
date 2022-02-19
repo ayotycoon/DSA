@@ -5,9 +5,9 @@
 from typing import List
 
 
-class BinaryTreeNode:
+class BinaryNode:
     def __init__(self, val):
         self.val:int = val
-        self.left:BinaryTreeNode = None
-        self.right:BinaryTreeNode = None
+        self.left:BinaryNode = None
+        self.right:BinaryNode = None
 
