@@ -1,7 +1,9 @@
 import common.Pair;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class RegularExpressionMatching {
     // 10 Regular Expression Matching https://leetcode.com/problems/regular-expression-matching
@@ -11,8 +13,8 @@ public class RegularExpressionMatching {
 
     }
 
-    private static boolean optimized1(String s, String p) {
-        List<Integer[]> group = new ArrayList<>();
+    private static List<Integer[]> grouper(String s) {
+        List<Integer[]> group = new ArrayList<>(s.length());
         // group string
         char prev = ' ';
         for (int i = 0; i < s.length(); i++) {
@@ -26,56 +28,65 @@ public class RegularExpressionMatching {
             }
             prev = c;
         }
-        // reset prev
-        prev = ' ';
-        // iterate through the pattern
-        int groupIndex = 0;
-        for (int i = 0; i < p.length(); i++) {
-            char patternChar = p.charAt(i);
-            if (groupIndex >= group.size()) {
-                while (i < p.length()){
-                    if (p.charAt(i) == '*' || (i + 1 < p.length() && p.charAt(i + 1) == '*')) {
+        return group;
+    }
+    private static boolean optimized1(List<Integer[]> _groupS,List<Integer[]> groupP,int groupIndexS,int groupIndexP,char prevMatchingS) {
+
+      if(groupIndexS == _groupS.size() && groupIndexP == groupP.size()-1 &&  _groupS.get(_groupS.size() - 1)[1] == 0) return true;
+      if(groupIndexS >= _groupS.size() || groupIndexP >= groupP.size()) return false;
+
+        List<Integer[]> groupS = _groupS.stream().map(s -> Arrays.copyOf(s,s.length)).collect(Collectors.toList());
+        boolean possibility1 = false;
+        boolean possibility2 = false;
+        boolean possibility3 = false;
+        boolean possibility4 = false;
 
 
-                    }else return false;
-                    i++;
+            var patternGroup = groupP.get(groupIndexP);
+            char patternChar = (char)patternGroup[0].intValue();
+
+            Integer[] stringGroup = groupS.get(groupIndexS);
+            char stringChar = (char) stringGroup[0].intValue();
+
+            if (patternChar == '.' || patternChar == stringChar) {
+                // if the character is the last one in the string or the next character is not a *
+                if(groupIndexS == groupS.size()-1 || (char)groupS.get(groupIndexS)[0].intValue() != '*'){
+                    stringGroup[1]--;
+                    patternGroup[1]--;
+                    possibility1 =  optimized1(groupS,groupP,stringGroup[1] == 0 ? groupIndexS+1 : groupIndexS,patternGroup[1] == 0 ? groupIndexP+1 : groupIndexP, stringChar);
+                }else{
+                    // if the next character is a *
+                    possibility1 =  optimized1(groupS,groupP, groupIndexS+1 , groupIndexP+1 , stringChar);
                 }
-                return true;
+
+
+            } else if (patternChar == '*' && prevMatchingS != ' ') {
+
+                int prev = stringGroup[1];
+                // check if theres a previous char forward. something lime |a*aa|
+                if(groupIndexP + 1 < groupP.size()){
+                    var x = groupP.get(groupIndexP+1);
+                    if((char) x[0].intValue() == prevMatchingS && x[1] != 0) {
+                        stringGroup[1] = x[1];
+                        possibility2 = optimized1(groupS,groupP,stringGroup[1] == 0 ? groupIndexS+1 : groupIndexS,groupIndexP+1, prevMatchingS);
+                    }
+                }
+                stringGroup[1] = prev;
+                possibility3 = optimized1(groupS,groupP,stringGroup[1] == 0 ? groupIndexS+1 : groupIndexS,groupIndexP+1, prevMatchingS);
+
+            } else if (patternChar != stringChar && groupIndexP + 1 < groupP.size() && (char)groupP.get(groupIndexP + 1)[0].intValue() == '*') {
+// skip move forwad
+                possibility4 = optimized1(groupS,groupP,groupIndexS,groupIndexP+1, prevMatchingS);
+
             }
-            Integer[] groupItem = group.get(groupIndex);
-            char groupChar = (char) groupItem[0].intValue();
-            if (patternChar == '.' || patternChar == groupChar) {
-                groupItem[1]--;
-            } else if (patternChar == '*' && prev != ' ') {
-                int prevCharAhead = getPrevCharAhead(p, prev, i + 1);
 
-                groupItem[1] = prevCharAhead;
-            } else if (patternChar != groupChar && i + 1 < p.length() && p.charAt(i + 1) == '*') {
-                i++;
-                continue;
-
-            } else {
-                return false;
-            }
-            prev = groupChar;
-            if (groupItem[1] < 0) return false;
-            if (groupItem[1] == 0) groupIndex++;
-        }
+                return possibility1 || possibility2 || possibility3 || possibility4;
 
 
-        return group.get(group.size() - 1)[1] == 0;
+
     }
 
-    private static int getPrevCharAhead(String p, char c, int i) {
 
-        int num = 0;
-        while (i < p.length() && c == p.charAt(i)) {
-            num++;
-            i++;
-        }
-        return num;
-
-    }
 
     public static void main(String[] args) {
 
@@ -91,13 +102,15 @@ public class RegularExpressionMatching {
 //                new Pair<>("baaaa", "b.*a"),
 //                new Pair<>("aabb", "a*b*"),
 //                new Pair<>("aabb", ".*.*"),
-                new Pair<>("ab", ".*c"),
-                new Pair<>("ab", "ab*"),
-                new Pair<>("ab", "abc*"),
+//                new Pair<>("ab", ".*c"),
+//                new Pair<>("ab", "ab*"),
+//                new Pair<>("ab", "abc*"),
                 new Pair<>("aaa", "ab*a*c*a"),
 
         }) {
-            boolean optimized1Solution = optimized1(s.v1, s.v2);
+            var groupS = grouper(s.v1);
+            var groupP = grouper(s.v2);
+            boolean optimized1Solution = optimized1(groupS, groupP,0,0,' ');
 
 
             System.out.println(s + " => " + optimized1Solution);
