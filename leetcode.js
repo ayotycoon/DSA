@@ -12,6 +12,8 @@ class LeetcodeFolder {
     relativeReadMeFile = "";
     relativeJavaFile = "";
     relativePythonFile = ""
+    javaDone = false;
+    pythonDone= false;
     constructor(folderName) {
         this.folderName = folderName;
         this.relativeFolderPath = path.join(relativeDir, folderName);
@@ -28,7 +30,10 @@ class LeetcodeFolder {
 
         for (let file of content) {
             if (file.endsWith('.md'))this.relativeReadMeFile = path.join(this.relativeFolderPath, file);
-            if (file.endsWith('.java'))this.relativeJavaFile = path.join(this.relativeFolderPath, file);
+            if (file.endsWith('.java')){
+                this.relativeJavaFile = path.join(this.relativeFolderPath, file);
+            if(fs.readFileSync(this.relativeJavaFile,{encoding:'utf-8'}).match(/(TestCaseExecutor)|(System\.out\.println)/))this.javaDone = true;
+            }
             if (file.endsWith('.py'))this.relativePythonFile = path.join(this.relativeFolderPath, file);
         }
     }
@@ -50,7 +55,7 @@ let readMe = `
 `;
 
 arr.forEach(clazz => {
-    readMe += `|${clazz.number}|[${clazz.folderName.substring(clazz.numberEndsLength+1).replace(/_/g," ")}](${clazz.relativeReadMeFile}) |[Java](${clazz.relativeJavaFile}) |[Python](${clazz.relativePythonFile})|
+    readMe += `|${clazz.number}|[${clazz.folderName.substring(clazz.numberEndsLength+1).replace(/_/g," ")}](${clazz.relativeReadMeFile}) |[Java ${clazz.javaDone ? '✅': '❌'}](${clazz.relativeJavaFile}) |[Python ${clazz.pythonDone ? '✅': '❌'}](${clazz.relativePythonFile})|
 `
 })
 
