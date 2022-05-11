@@ -43,8 +43,8 @@ const arr = folders.map(f => new LeetcodeFolder(f)).sort((a, b) => a.number - b.
 
 
 let readMe = `
-| Name | Files | -- |
-| --- | --- | --- |
+| Name | Files |____|
+|------|-------|----|
 `;
 
 arr.forEach(clazz => {

@@ -1,6 +1,6 @@
 
-| Name | Files | -- |
-| --- | --- | --- |
+| Name | Files |____|
+|------|-------|----|
 |[1 Two Sum](src/leetcode/1 Two Sum/README.md) |[JAVA](src/leetcode/1 Two Sum/TwoSum.java)<br/>[PYTHON](src/leetcode/1 Two Sum/TwoSum.py) | -- |
 |[2 Add Two Numbers](src/leetcode/2 Add Two Numbers/README.md) |[JAVA](src/leetcode/2 Add Two Numbers/AddTwoNumbers.java)<br/>[PYTHON](src/leetcode/2 Add Two Numbers/AddTwoNumbers.py) | -- |
 |[3 Longest Substring Without Repeating Characters](src/leetcode/3 Longest Substring Without Repeating Characters/README.md) |[JAVA](src/leetcode/3 Longest Substring Without Repeating Characters/LongestSubstringWithoutRepeatingCharacters.java)<br/>[PYTHON](src/leetcode/3 Longest Substring Without Repeating Characters/LongestSubstringWithoutRepeatingCharacters.py) | -- |
