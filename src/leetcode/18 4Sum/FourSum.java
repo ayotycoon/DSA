@@ -67,12 +67,23 @@ public class FourSum{
 
         for (int i = 0; i < nums.length-3; i++) {
             if (i > 0 && nums[i - 1] == nums[i]) continue;
+
             for (int j = i + 1; j < nums.length; j++) {
                 if (j > i+1 && nums[j - 1] == nums[j]) continue;
+
                 int k = j + 1;
                 int l = nums.length - 1;
 
                 while (k < l) {
+                    if (k > j+1 && nums[k - 1] == nums[k]){
+                        k++;
+                        continue;
+                    }
+
+                    if (l < nums.length-1 && nums[l + 1] == nums[l]){
+                        l--;
+                        continue;
+                    }
                     int add = nums[i] + nums[j] + nums[k] + nums[l];
                     if (add == target) {
                         ans.add(Arrays.asList(nums[i], nums[j], nums[k], nums[l]));
@@ -98,7 +109,8 @@ public class FourSum{
         new TestCaseExecutor(
                 computeTestCase(new int[]{1, 0, -1, 0, -2, 2}, 0),
                 computeTestCase(new int[]{2,2,2,2,2}, 8),
-                computeTestCase(new int[]{2,2,2,2,2,2,2,2,2}, 8)
+                computeTestCase(new int[]{2,2,2,2,2,2,2,2,2}, 8),
+                computeTestCase(new int[]{2,2,2,2,1,1,1,1}, 8)
 
 
         );
