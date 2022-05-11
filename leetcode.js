@@ -25,9 +25,9 @@ class LeetcodeFolder {
         const content = fs.readdirSync(this.relativeFolderPath);
 
         for (let file of content) {
-            if (file.endsWith('.md')) this.relativeReadMeFile = path.join(this.relativeReadMeFile, file);
-            if (file.endsWith('.java')) this.relativeJavaFile = path.join(this.relativeFolderPath, file);
-            if (file.endsWith('.py')) this.relativePythonFile = path.join(this.relativeFolderPath, file);
+            if (file.endsWith('.md'))this.relativeReadMeFile = path.join(this.relativeFolderPath, file);
+            if (file.endsWith('.java'))this.relativeJavaFile = path.join(this.relativeFolderPath, file);
+            if (file.endsWith('.py'))this.relativePythonFile = path.join(this.relativeFolderPath, file);
         }
     }
 
