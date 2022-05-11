@@ -1,4 +1,16 @@
 
+# [LeetCode](https://leetcode.com/problemset/algorithms/) [![License](https://img.shields.io/badge/license-Apache_2.0-blue.svg)](LICENSE.md) 
+
+_If you like this project, please leave me a star._ &#9733;
+
+> ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
+
+## Algorithms
+
+Java 4 %\
+Python 2 %
+
+
 | # |Name | Solutions |__|
 |---|-----|-------|----|
 |1|[Two Sum](src/leetcode/1_Two_Sum/README.md) |[Java ✅](src/leetcode/1_Two_Sum/TwoSum.java), [Python ✅](src/leetcode/1_Two_Sum/TwoSum.py)|__|
@@ -552,4 +564,4 @@
 |1884|[Egg Drop With 2 Eggs and N Floors](src/leetcode/1884_Egg_Drop_With_2_Eggs_and_N_Floors/README.md) |[Java ❌](src/leetcode/1884_Egg_Drop_With_2_Eggs_and_N_Floors/EggDropWith2EggsAndNFloors.java), [Python ❌](src/leetcode/1884_Egg_Drop_With_2_Eggs_and_N_Floors/EggDropWith2EggsAndNFloors.py)|__|
 |1935|[Maximum Number of Words You Can Type](src/leetcode/1935_Maximum_Number_of_Words_You_Can_Type/README.md) |[Java ❌](src/leetcode/1935_Maximum_Number_of_Words_You_Can_Type/MaximumNumberOfWordsYouCanType.java), [Python ❌](src/leetcode/1935_Maximum_Number_of_Words_You_Can_Type/MaximumNumberOfWordsYouCanType.py)|__|
 |1945|[Sum of Digits of String After Convert](src/leetcode/1945_Sum_of_Digits_of_String_After_Convert/README.md) |[Java ❌](src/leetcode/1945_Sum_of_Digits_of_String_After_Convert/SumOfDigitsOfStringAfterConvert.java), [Python ❌](src/leetcode/1945_Sum_of_Digits_of_String_After_Convert/SumOfDigitsOfStringAfterConvert.py)|__|
-|1946|[Largest Number After Mutating Substring](src/leetcode/1946_Largest_Number_After_Mutating_Substring/README.md) |[Java ✅](src/leetcode/1946_Largest_Number_After_Mutating_Substring/Vanessa.java), [Python ❌](src/leetcode/1946_Largest_Number_After_Mutating_Substring/LargestNumberAfterMutatingSubstring.py)|__|
+|1946|[Largest Number After Mutating Substring](src/leetcode/1946_Largest_Number_After_Mutating_Substring/README.md) |[Java ❌](src/leetcode/1946_Largest_Number_After_Mutating_Substring/LargestNumberAfterMutatingSubstring.java), [Python ❌](src/leetcode/1946_Largest_Number_After_Mutating_Substring/LargestNumberAfterMutatingSubstring.py)|__|
