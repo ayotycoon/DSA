@@ -75,7 +75,7 @@ Python ${Math.ceil((totalPythonDone / arr.length) * 100)} %
 `;
 
 arr.forEach(clazz => {
-    readMe += `|${clazz.number}|[${clazz.folderName.substring(clazz.numberEndsLength+1).replace(/_/g," ")}](${clazz.relativeReadMeFile}) |[Java ${clazz.javaDone ? '✅': '❌'}](${clazz.relativeJavaFile}), [Python ${clazz.pythonDone ? '✅': '❌'}](${clazz.relativePythonFile})|__|
+    readMe += `|${clazz.number}|[${clazz.folderName.substring(clazz.numberEndsLength+1).replace(/_/g," ")}](${clazz.relativeFolderPath}) |[Java ${clazz.javaDone ? '✅': '❌'}](${clazz.relativeJavaFile}),[Python ${clazz.pythonDone ? '✅': '❌'}](${clazz.relativePythonFile})|__|
 `
 })
 
