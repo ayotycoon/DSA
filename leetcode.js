@@ -45,12 +45,12 @@ const arr = folders.map(f => new LeetcodeFolder(f)).sort((a, b) => a.number - b.
 
 
 let readMe = `
-| # |Name | Files |____|
-|---|------|-------|----|
+| # |Name | Java |Python|
+|---|-----|-------|----|
 `;
 
 arr.forEach(clazz => {
-    readMe += `|${clazz.number}|[${clazz.folderName.substring(clazz.numberEndsLength+1).replace(/_/g," ")}](${clazz.relativeReadMeFile}) |[Java](${clazz.relativeJavaFile})<br/>[Python](${clazz.relativePythonFile}) | -- |
+    readMe += `|${clazz.number}|[${clazz.folderName.substring(clazz.numberEndsLength+1).replace(/_/g," ")}](${clazz.relativeReadMeFile}) |[Java](${clazz.relativeJavaFile}) |[Python](${clazz.relativePythonFile})|
 `
 })
 
