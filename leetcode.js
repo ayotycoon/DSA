@@ -48,7 +48,7 @@ let readMe = `
 `;
 
 arr.forEach(clazz => {
-    readMe += `|[${clazz.folderName}](${clazz.relativeReadMeFile}) |[JAVA](${clazz.relativeJavaFile})<br/>[PYTHON](${clazz.relativePythonFile}) | -- |
+    readMe += `|[${clazz.folderName}](${clazz.relativeReadMeFile.replace("src/","../master/src/")}) |[JAVA](${clazz.relativeJavaFile.replace("src/","../master/src/")})<br/>[PYTHON](${clazz.relativePythonFile.replace("src/","../master/src/")}) | -- |
 `
 })
 
