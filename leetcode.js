@@ -6,6 +6,7 @@ const dir = path.resolve(__dirname, relativeDir);
 
 class LeetcodeFolder {
     number = 0;
+    numberEndsLength = 0;
     folderName = "";
     relativeFolderPath = "";
     relativeReadMeFile = "";
@@ -20,6 +21,7 @@ class LeetcodeFolder {
         for (let i = 0; i < folderName.length; i++) {
             if (!isNaN(folderName[i])) tempNo += folderName[i]; else break;
         }
+        this.numberEndsLength = tempNo.length;
         this.number = parseInt(tempNo);
         // extract java files;
         const content = fs.readdirSync(this.relativeFolderPath);
@@ -43,12 +45,12 @@ const arr = folders.map(f => new LeetcodeFolder(f)).sort((a, b) => a.number - b.
 
 
 let readMe = `
-| Name | Files |____|
-|------|-------|----|
+| # |Name | Files |____|
+|---|------|-------|----|
 `;
 
 arr.forEach(clazz => {
-    readMe += `|[${clazz.folderName}](${clazz.relativeReadMeFile}) |[Java](${clazz.relativeJavaFile})<br/>[Python](${clazz.relativePythonFile}) | -- |
+    readMe += `|${clazz.number}|[${clazz.folderName.substring(clazz.numberEndsLength+1).replace(/_/g," ")}](${clazz.relativeReadMeFile}) |[Java](${clazz.relativeJavaFile})<br/>[Python](${clazz.relativePythonFile}) | -- |
 `
 })
 
