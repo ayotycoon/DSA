@@ -43,12 +43,12 @@ const arr = folders.map(f => new LeetcodeFolder(f)).sort((a, b) => a.number - b.
 
 
 let readMe = `
-| Name | Java | python |
+| Name | Files | -- |
 | --- | --- | --- |
 `;
 
 arr.forEach(clazz => {
-    readMe += `|[${clazz.folderName}](${clazz.relativeReadMeFile}) |[${clazz.relativeJavaFile}](${clazz.relativeJavaFile}) | [${clazz.relativePythonFile}](${clazz.relativePythonFile}) |
+    readMe += `|[${clazz.folderName}](${clazz.relativeReadMeFile}) |[JAVA](${clazz.relativeJavaFile})<br/>[PYTHON](${clazz.relativePythonFile}) | -- |
 `
 })
 
