@@ -52,6 +52,6 @@ arr.forEach(clazz => {
 `
 })
 
-fs.writeFileSync('./ReadME.md', readMe);
+fs.writeFileSync('./README.md', readMe);
 
 
