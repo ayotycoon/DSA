@@ -8,9 +8,19 @@ public class ListNode {
     }
     @Override
     public String toString() {
-        return "ListNode{" +
-                "val=" + val +
-                ", next=" + next +
-                '}';
+        return  val +
+                " => "+  next;
+    }
+
+    public static ListNode create(int[] nums){
+        ListNode head = new ListNode(-1);
+        ListNode ref = head;
+        for(int num: nums){
+            ref.next = new ListNode(num);
+            ref = ref.next;
+        }
+
+        return head.next;
+
     }
 }
