@@ -7,7 +7,7 @@ _If you like this project, please leave me a star._ &#9733;
 
 ## Algorithms
 
-Java 4 %\
+Java 5 %\
 Python 2 %
 
 
@@ -36,7 +36,7 @@ Python 2 %
 |21|[Merge Two Sorted Lists](src/leetcode/21_Merge_Two_Sorted_Lists) |[Java✅](src/leetcode/21_Merge_Two_Sorted_Lists/MergeTwoSortedLists.java),[Python❌](src/leetcode/21_Merge_Two_Sorted_Lists/MergeTwoSortedLists.py)|__|
 |22|[Generate Parentheses](src/leetcode/22_Generate_Parentheses) |[Java❌](src/leetcode/22_Generate_Parentheses/GenerateParentheses.java),[Python❌](src/leetcode/22_Generate_Parentheses/GenerateParentheses.py)|__|
 |23|[Merge k Sorted Lists](src/leetcode/23_Merge_k_Sorted_Lists) |[Java✅](src/leetcode/23_Merge_k_Sorted_Lists/MergeKSortedLists.java),[Python❌](src/leetcode/23_Merge_k_Sorted_Lists/MergeKSortedLists.py)|__|
-|24|[Swap Nodes in Pairs](src/leetcode/24_Swap_Nodes_in_Pairs) |[Java❌](src/leetcode/24_Swap_Nodes_in_Pairs/SwapNodesInPairs.java),[Python❌](src/leetcode/24_Swap_Nodes_in_Pairs/SwapNodesInPairs.py)|__|
+|24|[Swap Nodes in Pairs](src/leetcode/24_Swap_Nodes_in_Pairs) |[Java✅](src/leetcode/24_Swap_Nodes_in_Pairs/SwapNodesInPairs.java),[Python❌](src/leetcode/24_Swap_Nodes_in_Pairs/SwapNodesInPairs.py)|__|
 |25|[Reverse Nodes in k-Group](src/leetcode/25_Reverse_Nodes_in_k-Group) |[Java❌](src/leetcode/25_Reverse_Nodes_in_k-Group/ReverseNodesInKGroup.java),[Python❌](src/leetcode/25_Reverse_Nodes_in_k-Group/ReverseNodesInKGroup.py)|__|
 |26|[Remove Duplicates from Sorted Array](src/leetcode/26_Remove_Duplicates_from_Sorted_Array) |[Java❌](src/leetcode/26_Remove_Duplicates_from_Sorted_Array/RemoveDuplicatesFromSortedArray.java),[Python❌](src/leetcode/26_Remove_Duplicates_from_Sorted_Array/RemoveDuplicatesFromSortedArray.py)|__|
 |27|[Remove Element](src/leetcode/27_Remove_Element) |[Java❌](src/leetcode/27_Remove_Element/RemoveElement.java),[Python❌](src/leetcode/27_Remove_Element/RemoveElement.py)|__|
