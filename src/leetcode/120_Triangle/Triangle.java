@@ -3,10 +3,18 @@ public class Triangle{
     // 120 Triangle https://leetcode.com/problems/triangle
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

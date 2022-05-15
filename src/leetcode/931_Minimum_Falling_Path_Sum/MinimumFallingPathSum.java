@@ -3,10 +3,18 @@ public class MinimumFallingPathSum{
     // 931 Minimum Falling Path Sum https://leetcode.com/problems/minimum-falling-path-sum
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

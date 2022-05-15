@@ -3,10 +3,18 @@ public class TruncateSentence{
     // 1816 Truncate Sentence https://leetcode.com/problems/truncate-sentence
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

@@ -3,10 +3,18 @@ public class JewelsAndStones{
     // 771 Jewels and Stones https://leetcode.com/problems/jewels-and-stones/description)
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

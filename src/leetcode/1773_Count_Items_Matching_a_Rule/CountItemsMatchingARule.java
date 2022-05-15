@@ -3,10 +3,18 @@ public class CountItemsMatchingARule{
     // 1773 Count Items Matching a Rule https://leetcode.com/problems/count-items-matching-a-rule
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

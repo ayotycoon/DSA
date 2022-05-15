@@ -3,9 +3,15 @@
 # 160 Intersection of Two Linked Lists https://leetcode.com/problems/intersection-of-two-linked-lists
 
 def bruteForce():
+   #Time O(1)
+   #Space O(1)
+
     pass
 
 def optimized1():
+   #Time O(1)
+   #Space O(1)
+
     pass
 
 #bruteForce()

@@ -3,10 +3,18 @@ public class LengthOfLastWord{
     // 58 Length of Last Word https://leetcode.com/problems/length-of-last-word
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

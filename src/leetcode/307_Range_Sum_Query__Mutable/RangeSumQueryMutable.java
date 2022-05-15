@@ -3,10 +3,18 @@ public class RangeSumQueryMutable{
     // 307 Range Sum Query - Mutable https://leetcode.com/problems/range-sum-query-mutable
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

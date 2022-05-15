@@ -3,10 +3,18 @@ public class FindingMKAverage{
     // 1825 Finding MK Average https://leetcode.com/problems/finding-mk-average
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

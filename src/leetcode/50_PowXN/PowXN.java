@@ -3,10 +3,18 @@ public class PowXN{
     // 50 "Pow(x, n)" https://leetcode.com/problems/powx-n
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

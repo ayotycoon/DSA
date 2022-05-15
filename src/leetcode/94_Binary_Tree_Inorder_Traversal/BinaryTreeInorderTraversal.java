@@ -3,10 +3,18 @@ public class BinaryTreeInorderTraversal{
     // 94 Binary Tree Inorder Traversal https://leetcode.com/problems/binary-tree-inorder-traversal
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

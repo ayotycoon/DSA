@@ -3,10 +3,18 @@ public class MaximumUnitsOnATruck{
     // 1710 Maximum Units on a Truck https://leetcode.com/problems/maximum-units-on-a-truck
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

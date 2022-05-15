@@ -2,4 +2,5 @@
 target
 *.iml
 out
+src/temp
 .DS_Store

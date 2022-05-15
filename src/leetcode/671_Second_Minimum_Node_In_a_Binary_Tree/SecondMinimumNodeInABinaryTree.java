@@ -3,10 +3,18 @@ public class SecondMinimumNodeInABinaryTree{
     // 671 Second Minimum Node In a Binary Tree https://leetcode.com/problems/second-minimum-node-in-a-binary-tree  [Python
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

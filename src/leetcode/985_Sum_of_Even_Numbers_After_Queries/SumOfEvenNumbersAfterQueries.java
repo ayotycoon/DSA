@@ -3,10 +3,18 @@ public class SumOfEvenNumbersAfterQueries{
     // 985 Sum of Even Numbers After Queries https://leetcode.com/problems/sum-of-even-numbers-after-queries
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

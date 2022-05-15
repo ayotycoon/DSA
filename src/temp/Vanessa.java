@@ -6,11 +6,6 @@ public class Vanessa {
     private static final Map<String, Integer> map = new HashMap<>();
 
     public static void main(String[] args) {
-
-
-
-
-
         int n = 50;
         char[][] _board = new char[n][n];
         for (int i = 0; i < n; i++) {

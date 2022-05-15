@@ -3,10 +3,18 @@ public class SplittingAStringIntoDescendingConsecutiveValues{
     // 1849 Splitting a String Into Descending Consecutive Values https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

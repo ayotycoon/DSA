@@ -3,10 +3,18 @@ public class MaximumProductOfWordLengths{
     // 318 Maximum Product of Word Lengths https://leetcode.com/problems/maximum-product-of-word-lengths
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

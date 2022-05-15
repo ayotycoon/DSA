@@ -3,10 +3,18 @@ public class GrayCode{
     // 89 Gray Code https://leetcode.com/problems/gray-code
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

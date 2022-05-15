@@ -3,10 +3,18 @@ public class LongestTurbulentSubarray{
     // 978 Longest Turbulent Subarray https://leetcode.com/problems/longest-turbulent-subarray
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

@@ -3,9 +3,15 @@
 # 132 Palindrome Partitioning II https://leetcode.com/problems/palindrome-partitioning-ii
 
 def bruteForce():
+   #Time O(1)
+   #Space O(1)
+
     pass
 
 def optimized1():
+   #Time O(1)
+   #Space O(1)
+
     pass
 
 #bruteForce()

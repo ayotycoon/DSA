@@ -3,10 +3,18 @@ public class AddOneRowToTree{
     // 623 Add One Row to Tree https://leetcode.com/problems/add-one-row-to-tree  [Python
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

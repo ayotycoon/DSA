@@ -3,10 +3,18 @@ public class MergeIntervals{
     // 56 Merge Intervals https://leetcode.com/problems/merge-intervals
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

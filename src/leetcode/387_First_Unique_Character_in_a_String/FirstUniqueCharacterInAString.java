@@ -3,10 +3,18 @@ public class FirstUniqueCharacterInAString{
     // 387 First Unique Character in a String https://leetcode.com/problems/first-unique-character-in-a-string
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

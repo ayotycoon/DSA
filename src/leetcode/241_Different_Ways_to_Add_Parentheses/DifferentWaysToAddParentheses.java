@@ -3,10 +3,18 @@ public class DifferentWaysToAddParentheses{
     // 241 Different Ways to Add Parentheses https://leetcode.com/problems/different-ways-to-add-parentheses
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

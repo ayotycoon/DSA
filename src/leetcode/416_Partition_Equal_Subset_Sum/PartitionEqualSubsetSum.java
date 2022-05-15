@@ -3,10 +3,18 @@ public class PartitionEqualSubsetSum{
     // 416 Partition Equal Subset Sum https://leetcode.com/problems/partition-equal-subset-sum/description
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

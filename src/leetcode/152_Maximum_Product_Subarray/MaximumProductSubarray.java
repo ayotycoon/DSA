@@ -3,10 +3,18 @@ public class MaximumProductSubarray{
     // 152 Maximum Product Subarray https://leetcode.com/problems/maximum-product-subarray
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

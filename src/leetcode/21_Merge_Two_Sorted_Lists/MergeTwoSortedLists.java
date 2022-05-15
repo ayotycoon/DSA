@@ -10,6 +10,10 @@ public class MergeTwoSortedLists{
     // 21 Merge Two Sorted Lists https://leetcode.com/problems/merge-two-sorted-lists
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

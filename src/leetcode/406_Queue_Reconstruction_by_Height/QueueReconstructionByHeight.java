@@ -3,10 +3,18 @@ public class QueueReconstructionByHeight{
     // 406 Queue Reconstruction by Height https://leetcode.com/problems/queue-reconstruction-by-height
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

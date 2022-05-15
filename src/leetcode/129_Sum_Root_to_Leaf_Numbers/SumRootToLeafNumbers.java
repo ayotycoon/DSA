@@ -3,10 +3,18 @@ public class SumRootToLeafNumbers{
     // 129 Sum Root to Leaf Numbers https://leetcode.com/problems/sum-root-to-leaf-numbers
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

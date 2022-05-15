@@ -8,6 +8,10 @@ public class IntegerToRoman{
     // 12 Integer to Roman https://leetcode.com/problems/integer-to-roman
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
     }
     private static String optimized1(int num){

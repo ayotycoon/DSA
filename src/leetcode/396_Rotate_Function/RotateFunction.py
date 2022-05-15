@@ -3,9 +3,15 @@
 # 396 Rotate Function https://leetcode.com/problems/rotate-function
 
 def bruteForce():
+   #Time O(1)
+   #Space O(1)
+
     pass
 
 def optimized1():
+   #Time O(1)
+   #Space O(1)
+
     pass
 
 #bruteForce()

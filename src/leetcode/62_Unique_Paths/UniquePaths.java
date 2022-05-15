@@ -3,10 +3,18 @@ public class UniquePaths{
     // 62 Unique Paths https://leetcode.com/problems/unique-paths
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

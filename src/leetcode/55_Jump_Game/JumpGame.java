@@ -3,10 +3,18 @@ public class JumpGame{
     // 55 Jump Game https://leetcode.com/problems/jump-game
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

@@ -3,10 +3,18 @@ public class MinimumDistanceToTheTargetElement{
     // 1848 Minimum Distance to the Target Element https://leetcode.com/problems/minimum-distance-to-the-target-element
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

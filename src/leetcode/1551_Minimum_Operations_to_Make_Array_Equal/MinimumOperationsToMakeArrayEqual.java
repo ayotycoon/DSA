@@ -3,10 +3,18 @@ public class MinimumOperationsToMakeArrayEqual{
     // 1551 Minimum Operations to Make Array Equal https://leetcode.com/problems/minimum-operations-to-make-array-equal
 
     private static void bruteForce(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }
     private static void optimized1(){
+/*        
+Time O(1)
+ Space O(1)
+*/
 
             
     }

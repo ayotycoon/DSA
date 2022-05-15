@@ -74,10 +74,11 @@ Python ${Math.ceil((totalPythonDone / arr.length) * 100)} %
 |---|-----|-------|----|
 `;
 
-arr.forEach(clazz => {
-    readMe += `|${clazz.number}|[${clazz.folderName.substring(clazz.numberEndsLength+1).replace(/_/g," ")}](${clazz.relativeFolderPath}) |${clazz.javaDone ? `[Java](${clazz.relativeJavaFile})`: ''}], ${clazz.pythonDone ? `[Python](${clazz.relativePythonFile})`: ''}]|__|
+arr.forEach((clazz,i) => {
+    readMe += `|${clazz.number}|[${clazz.folderName.substring(clazz.numberEndsLength+1).replace(/_/g," ")}](${clazz.relativeFolderPath}) |${clazz.javaDone ? `[Java](${clazz.relativeJavaFile})`: ''}, ${clazz.pythonDone ? `[Python](${clazz.relativePythonFile})`: ''}|__|
 `
 })
+
 
 
 fs.writeFileSync('./README.md', readMe);
