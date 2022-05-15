@@ -56,7 +56,7 @@ Time O(1)
 
     private static int optimized1(int dividend, int divisor) {
 /*        
-Time O(N)
+Time O(log N)
  Space O(1)
 */
         if(dividend == Integer.MIN_VALUE && divisor == -1)
@@ -79,13 +79,12 @@ Time O(N)
 
 
     public static void main(String[] args) {
-        System.out.println(optimized1(10, 2));
 
-//        new TestCaseExecutor(
-//                computeTestCase(-2147483648, 2)
-//
-//
-//        );
+        new TestCaseExecutor(
+                computeTestCase(-2147483648, 2)
+
+
+        );
 
     }
 
