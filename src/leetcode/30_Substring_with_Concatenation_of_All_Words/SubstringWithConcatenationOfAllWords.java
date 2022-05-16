@@ -2,6 +2,7 @@ import LeetcodeTestCase.TestCase;
 import LeetcodeTestCase.TestCaseExecutor;
 import LeetcodeTestCase.TestCaseFunctionGroup;
 import org.jetbrains.annotations.NotNull;
+import utils.Permutate;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -10,39 +11,13 @@ public class SubstringWithConcatenationOfAllWords {
     // 30 Substring with Concatenation of All Words https://leetcode.com/problems/substring-with-concatenation-of-all-words
 
 
-    private static List<String> permutate(String[] words) {
-        List<String> ans = new ArrayList<>();
-        if (words.length == 0) {
-            ans.add("");
-            return ans;
-        }
-        for (int i = 0; i < words.length; i++) {
-            var curr = words[i];
-            String[] wordsMod = new String[words.length - 1];
-
-            int v = 0;
-
-            for (int j = 0; j < words.length; j++) {
-                if (i == j) continue;
-                wordsMod[v] = words[j];
-                v++;
-            }
-
-
-            var temp = permutate(wordsMod).stream().map(x -> curr + x).collect(Collectors.toList());
-            ans.addAll(temp);
-
-        }
-        return ans;
-    }
-
     private static List<Integer> bruteForce(String s, String[] words) {
         /*
             Time O((N^N)M)
             Space O(1)
         */
 
-        List<String> possibilities = permutate(words);
+        List<String> possibilities = Permutate.getAll(words);
 
         var ans = new ArrayList<Integer>();
 
@@ -64,9 +39,10 @@ public class SubstringWithConcatenationOfAllWords {
 
     private static List<Integer> optimized1(String s, String[] words, int stringIndex) {
     /*
-    Time O(1)
+     Time O(1)
      Space O(1)
     */
+
 
         List<Integer> ans = new ArrayList<>();
         if (words.length == 0) return ans;
@@ -112,7 +88,8 @@ public class SubstringWithConcatenationOfAllWords {
 
 
         new TestCaseExecutor(
-                computeTestCase("barfoothefoobarman", new String[]{"bar", "foo"})
+                computeTestCase("foothefoobarman", new String[]{"bar", "foo"})
+//                computeTestCase("barfoothefoobarman", new String[]{"bar", "foo"})
 //                computeTestCase("barfoofoobarthefoobarman", new String[]{"bar", "foo", "the"}),
 //                computeTestCase("wordgoodgoodgoodbestword", new String[]{"word","good","best","word"})
 
