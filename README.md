@@ -7,7 +7,7 @@ _If you like this project, please leave me a star._ &#9733;
 
 ## Algorithms
 
-Java 6 %\
+Java 7 %\
 Python 2 %
 
 
@@ -42,15 +42,15 @@ Python 2 %
 |27|[Remove Element](src/leetcode/27_Remove_Element) |[Java](src/leetcode/27_Remove_Element/RemoveElement.java), |__|
 |28|[Implement strStr](src/leetcode/28_Implement_strStr) |[Java](src/leetcode/28_Implement_strStr/ImplementStrStr.java), |__|
 |29|[Divide Two Integers](src/leetcode/29_Divide_Two_Integers) |[Java](src/leetcode/29_Divide_Two_Integers/DivideTwoIntegers.java), |__|
-|30|[Substring with Concatenation of All Words](src/leetcode/30_Substring_with_Concatenation_of_All_Words) |, |__|
-|31|[Next Permutation](src/leetcode/31_Next_Permutation) |, |__|
-|32|[Longest Valid Parentheses](src/leetcode/32_Longest_Valid_Parentheses) |, |__|
-|33|[Search in Rotated Sorted Array](src/leetcode/33_Search_in_Rotated_Sorted_Array) |, |__|
-|34|[Search for a Range](src/leetcode/34_Search_for_a_Range) |, |__|
-|35|[Search Insert Position](src/leetcode/35_Search_Insert_Position) |, |__|
-|36|[Valid Sudoku](src/leetcode/36_Valid_Sudoku) |, |__|
+|30|[Substring with Concatenation of All Words](src/leetcode/30_Substring_with_Concatenation_of_All_Words) |[Java](src/leetcode/30_Substring_with_Concatenation_of_All_Words/SubstringWithConcatenationOfAllWords.java), |__|
+|31|[Next Permutation](src/leetcode/31_Next_Permutation) |[Java](src/leetcode/31_Next_Permutation/NextPermutation.java), |__|
+|32|[Longest Valid Parentheses](src/leetcode/32_Longest_Valid_Parentheses) |[Java](src/leetcode/32_Longest_Valid_Parentheses/LongestValidParentheses.java), |__|
+|33|[Search in Rotated Sorted Array](src/leetcode/33_Search_in_Rotated_Sorted_Array) |[Java](src/leetcode/33_Search_in_Rotated_Sorted_Array/SearchInRotatedSortedArray.java), |__|
+|34|[Search for a Range](src/leetcode/34_Search_for_a_Range) |[Java](src/leetcode/34_Search_for_a_Range/SearchForARange.java), |__|
+|35|[Search Insert Position](src/leetcode/35_Search_Insert_Position) |[Java](src/leetcode/35_Search_Insert_Position/SearchInsertPosition.java), |__|
+|36|[Valid Sudoku](src/leetcode/36_Valid_Sudoku) |[Java](src/leetcode/36_Valid_Sudoku/ValidSudoku.java), |__|
 |37|[Sudoku Solver](src/leetcode/37_Sudoku_Solver) |, |__|
-|38|[Count and Say](src/leetcode/38_Count_and_Say) |, |__|
+|38|[Count and Say](src/leetcode/38_Count_and_Say) |[Java](src/leetcode/38_Count_and_Say/CountAndSay.java), |__|
 |39|[Combination Sum](src/leetcode/39_Combination_Sum) |, |__|
 |40|[Combination Sum II](src/leetcode/40_Combination_Sum_II) |, |__|
 |41|[First Missing Positive](src/leetcode/41_First_Missing_Positive) |, |__|
