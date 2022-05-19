@@ -143,7 +143,7 @@ Step 4: Reverse the array after index. The array will become [5,1,2,3,4]
 
     }
 
-    ]
+
 
     @NotNull
     private static TestCase computeTestCase(int[] nums) {
