@@ -51,7 +51,7 @@ Python 2 %
 |36|[Valid Sudoku](src/leetcode/36_Valid_Sudoku) |[Java](src/leetcode/36_Valid_Sudoku/ValidSudoku.java), |__|
 |37|[Sudoku Solver](src/leetcode/37_Sudoku_Solver) |, |__|
 |38|[Count and Say](src/leetcode/38_Count_and_Say) |[Java](src/leetcode/38_Count_and_Say/CountAndSay.java), |__|
-|39|[Combination Sum](src/leetcode/39_Combination_Sum) |, |__|
+|39|[Combination Sum](src/leetcode/39_Combination_Sum) |[Java](src/leetcode/39_Combination_Sum/CombinationSum.java), |__|
 |40|[Combination Sum II](src/leetcode/40_Combination_Sum_II) |, |__|
 |41|[First Missing Positive](src/leetcode/41_First_Missing_Positive) |, |__|
 |42|[Trapping Rain Water](src/leetcode/42_Trapping_Rain_Water) |, |__|
