@@ -50,7 +50,7 @@ Time O(target * nums)
     }
 
     private static List<List<Integer>> optimized1(int[] candidates, int target) {
-
+        Arrays.sort(candidates);
         List<List<Integer>> ans = optimized1(candidates,target,0, new boolean[candidates.length]);
 
         return ans;
