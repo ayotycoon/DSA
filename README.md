@@ -7,7 +7,7 @@ _If you like this project, please leave me a star._ &#9733;
 
 ## Algorithms
 
-Java 7 %\
+Java 8 %\
 Python 2 %
 
 
@@ -53,7 +53,7 @@ Python 2 %
 |38|[Count and Say](src/leetcode/38_Count_and_Say) |[Java](src/leetcode/38_Count_and_Say/CountAndSay.java), |__|
 |39|[Combination Sum](src/leetcode/39_Combination_Sum) |[Java](src/leetcode/39_Combination_Sum/CombinationSum.java), |__|
 |40|[Combination Sum II](src/leetcode/40_Combination_Sum_II) |[Java](src/leetcode/40_Combination_Sum_II/CombinationSumII.java), |__|
-|41|[First Missing Positive](src/leetcode/41_First_Missing_Positive) |, |__|
+|41|[First Missing Positive](src/leetcode/41_First_Missing_Positive) |[Java](src/leetcode/41_First_Missing_Positive/FirstMissingPositive.java), |__|
 |42|[Trapping Rain Water](src/leetcode/42_Trapping_Rain_Water) |, |__|
 |43|[Multiply Strings](src/leetcode/43_Multiply_Strings) |, |__|
 |44|[Wildcard Matching](src/leetcode/44_Wildcard_Matching) |, |__|
