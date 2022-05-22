@@ -55,7 +55,7 @@ Python 2 %
 |40|[Combination Sum II](src/leetcode/40_Combination_Sum_II) |[Java](src/leetcode/40_Combination_Sum_II/CombinationSumII.java), |__|
 |41|[First Missing Positive](src/leetcode/41_First_Missing_Positive) |[Java](src/leetcode/41_First_Missing_Positive/FirstMissingPositive.java), |__|
 |42|[Trapping Rain Water](src/leetcode/42_Trapping_Rain_Water) |, |__|
-|43|[Multiply Strings](src/leetcode/43_Multiply_Strings) |, |__|
+|43|[Multiply Strings](src/leetcode/43_Multiply_Strings) |[Java](src/leetcode/43_Multiply_Strings/MultiplyStrings.java), |__|
 |44|[Wildcard Matching](src/leetcode/44_Wildcard_Matching) |, |__|
 |45|[Jump Game II](src/leetcode/45_Jump_Game_II) |, |__|
 |46|[Permutations](src/leetcode/46_Permutations) |, |__|
