@@ -57,9 +57,9 @@ Python 2 %
 |42|[Trapping Rain Water](src/leetcode/42_Trapping_Rain_Water) |, |__|
 |43|[Multiply Strings](src/leetcode/43_Multiply_Strings) |[Java](src/leetcode/43_Multiply_Strings/MultiplyStrings.java), |__|
 |44|[Wildcard Matching](src/leetcode/44_Wildcard_Matching) |, |__|
-|45|[Jump Game II](src/leetcode/45_Jump_Game_II) |, |__|
-|46|[Permutations](src/leetcode/46_Permutations) |, |__|
-|47|[Permutations II](src/leetcode/47_Permutations_II) |, |__|
+|45|[Jump Game II](src/leetcode/45_Jump_Game_II) |[Java](src/leetcode/45_Jump_Game_II/JumpGameII.java), [Python](src/leetcode/45_Jump_Game_II/JumpGameII.py)|__|
+|46|[Permutations](src/leetcode/46_Permutations) |[Java](src/leetcode/46_Permutations/Permutations.java), |__|
+|47|[Permutations II](src/leetcode/47_Permutations_II) |[Java](src/leetcode/47_Permutations_II/PermutationsII.java), |__|
 |48|[Rotate Image](src/leetcode/48_Rotate_Image) |, |__|
 |49|[Group Anagrams](src/leetcode/49_Group_Anagrams) |, |__|
 |50|[PowXN](src/leetcode/50_PowXN) |, |__|
@@ -67,7 +67,7 @@ Python 2 %
 |52|[N Queens II](src/leetcode/52_N_Queens_II) |, |__|
 |53|[Maximum Subarray](src/leetcode/53_Maximum_Subarray) |, |__|
 |54|[Spiral Matrix](src/leetcode/54_Spiral_Matrix) |, |__|
-|55|[Jump Game](src/leetcode/55_Jump_Game) |, |__|
+|55|[Jump Game](src/leetcode/55_Jump_Game) |[Java](src/leetcode/55_Jump_Game/JumpGame.java), |__|
 |56|[Merge Intervals](src/leetcode/56_Merge_Intervals) |, |__|
 |57|[Insert Interval](src/leetcode/57_Insert_Interval) |, |__|
 |58|[Length of Last Word](src/leetcode/58_Length_of_Last_Word) |, |__|

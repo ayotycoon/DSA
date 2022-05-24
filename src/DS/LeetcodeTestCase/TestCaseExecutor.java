@@ -12,6 +12,7 @@ public class TestCaseExecutor {
             sb.append("%s ------> %s \n".formatted("testcase " + (i + 1), testcase.getInput()));
             var functions = testcase.getFunctions();
             for (int j = 0; j < functions.length; j++) {
+                if(functions[j].isHide())continue;
                 sb.append("%s         %s \n".formatted(functions[j].getTitle(), functions[j].getFn().run()));
             }
 

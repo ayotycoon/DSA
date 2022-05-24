@@ -14,5 +14,5 @@ def optimized1():
 
     pass
 
-#bruteForce()
-#optimized1()
+bruteForce()
+optimized1()
