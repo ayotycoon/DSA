@@ -7,7 +7,7 @@ _If you like this project, please leave me a star._ &#9733;
 
 ## Algorithms
 
-Java 8 %\
+Java 9 %\
 Python 2 %
 
 
@@ -60,9 +60,9 @@ Python 2 %
 |45|[Jump Game II](src/leetcode/45_Jump_Game_II) |[Java](src/leetcode/45_Jump_Game_II/JumpGameII.java), [Python](src/leetcode/45_Jump_Game_II/JumpGameII.py)|__|
 |46|[Permutations](src/leetcode/46_Permutations) |[Java](src/leetcode/46_Permutations/Permutations.java), |__|
 |47|[Permutations II](src/leetcode/47_Permutations_II) |[Java](src/leetcode/47_Permutations_II/PermutationsII.java), |__|
-|48|[Rotate Image](src/leetcode/48_Rotate_Image) |, |__|
-|49|[Group Anagrams](src/leetcode/49_Group_Anagrams) |, |__|
-|50|[PowXN](src/leetcode/50_PowXN) |, |__|
+|48|[Rotate Image](src/leetcode/48_Rotate_Image) |[Java](src/leetcode/48_Rotate_Image/RotateImage.java), |__|
+|49|[Group Anagrams](src/leetcode/49_Group_Anagrams) |[Java](src/leetcode/49_Group_Anagrams/GroupAnagrams.java), |__|
+|50|[PowXN](src/leetcode/50_PowXN) |[Java](src/leetcode/50_PowXN/PowXN.java), |__|
 |51|[N-Queens](src/leetcode/51_N-Queens) |, |__|
 |52|[N Queens II](src/leetcode/52_N_Queens_II) |, |__|
 |53|[Maximum Subarray](src/leetcode/53_Maximum_Subarray) |, |__|
