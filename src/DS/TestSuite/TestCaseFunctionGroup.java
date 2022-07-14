@@ -1,4 +1,4 @@
-package LeetcodeTestCase;
+package TestSuite;
 
 public class TestCaseFunctionGroup {
     private String title;

@@ -1,9 +1,7 @@
-import LeetcodeTestCase.TestCase;
-import LeetcodeTestCase.TestCaseExecutor;
-import LeetcodeTestCase.TestCaseFunctionGroup;
+import TestSuite.TestCase;
+import TestSuite.TestCaseExecutor;
+import TestSuite.TestCaseFunctionGroup;
 import org.jetbrains.annotations.NotNull;
-
-import java.util.Arrays;
 
 public class MultiplyStrings {
     // 43 Multiply Strings https://leetcode.com/problems/multiply-strings

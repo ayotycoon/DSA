@@ -1,11 +1,9 @@
-import LeetcodeTestCase.TestCase;
-import LeetcodeTestCase.TestCaseExecutor;
-import LeetcodeTestCase.TestCaseFunctionGroup;
+import TestSuite.TestCase;
+import TestSuite.TestCaseExecutor;
+import TestSuite.TestCaseFunctionGroup;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.stream.Collectors;
 
 public class RotateImage {

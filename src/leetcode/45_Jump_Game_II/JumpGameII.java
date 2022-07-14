@@ -1,12 +1,9 @@
-import LeetcodeTestCase.TestCase;
-import LeetcodeTestCase.TestCaseExecutor;
-import LeetcodeTestCase.TestCaseFunctionGroup;
-import common.ListNode;
+import TestSuite.TestCase;
+import TestSuite.TestCaseExecutor;
+import TestSuite.TestCaseFunctionGroup;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 public class JumpGameII {
     // 45 Jump Game II https://leetcode.com/problems/jump-game-ii

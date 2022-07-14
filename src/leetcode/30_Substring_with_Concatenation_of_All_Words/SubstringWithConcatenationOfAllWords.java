@@ -1,11 +1,10 @@
-import LeetcodeTestCase.TestCase;
-import LeetcodeTestCase.TestCaseExecutor;
-import LeetcodeTestCase.TestCaseFunctionGroup;
+import TestSuite.TestCase;
+import TestSuite.TestCaseExecutor;
+import TestSuite.TestCaseFunctionGroup;
 import org.jetbrains.annotations.NotNull;
 import utils.Permutate;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class SubstringWithConcatenationOfAllWords {
     // 30 Substring with Concatenation of All Words https://leetcode.com/problems/substring-with-concatenation-of-all-words

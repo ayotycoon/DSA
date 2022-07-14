@@ -1,6 +1,6 @@
-import LeetcodeTestCase.TestCase;
-import LeetcodeTestCase.TestCaseExecutor;
-import LeetcodeTestCase.TestCaseFunctionGroup;
+import TestSuite.TestCase;
+import TestSuite.TestCaseExecutor;
+import TestSuite.TestCaseFunctionGroup;
 import common.ListNode;
 import org.jetbrains.annotations.NotNull;
 

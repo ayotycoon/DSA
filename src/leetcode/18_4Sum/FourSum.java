@@ -1,7 +1,7 @@
 
-import LeetcodeTestCase.TestCaseExecutor;
-import LeetcodeTestCase.TestCase;
-import LeetcodeTestCase.TestCaseFunctionGroup;
+import TestSuite.TestCaseExecutor;
+import TestSuite.TestCase;
+import TestSuite.TestCaseFunctionGroup;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.*;
