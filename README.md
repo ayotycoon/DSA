@@ -196,7 +196,7 @@ Python 2 %
 |191|[Number of 1 Bits](src/leetcode/191_Number_of_1_Bits) |, |__|
 |198|[House Robber](src/leetcode/198_House_Robber) |, |__|
 |199|[Binary Tree Right Side View](src/leetcode/199_Binary_Tree_Right_Side_View) |, |__|
-|200|[Number of Islands](src/leetcode/200_Number_of_Islands) |, |__|
+|200|[Number of Islands](src/leetcode/200_Number_of_Islands) |[Java](src/leetcode/200_Number_of_Islands/NumberOfIslands.java), |__|
 |201|[Bitwise AND of Numbers Range](src/leetcode/201_Bitwise_AND_of_Numbers_Range) |, |__|
 |202|[Happy Number](src/leetcode/202_Happy_Number) |, |__|
 |203|[Remove Linked List Elements](src/leetcode/203_Remove_Linked_List_Elements) |, |__|
@@ -370,7 +370,7 @@ Python 2 %
 |674|[Longest Continuous Increasing Subsequence](src/leetcode/674_Longest_Continuous_Increasing_Subsequence) |, |__|
 |684|[Redundant Connection](src/leetcode/684_Redundant_Connection) |, |__|
 |687|[Longest Univalue Path](src/leetcode/687_Longest_Univalue_Path) |, |__|
-|695|[Max Area of Island](src/leetcode/695_Max_Area_of_Island) |, |__|
+|695|[Max Area of Island](src/leetcode/695_Max_Area_of_Island) |[Java](src/leetcode/695_Max_Area_of_Island/MaxAreaOfIsland.java), |__|
 |712|[Minimum ASCII Delete Sum for Two Strings](src/leetcode/712_Minimum_ASCII_Delete_Sum_for_Two_Strings) |, |__|
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](src/leetcode/714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee) |, |__|
 |717|[1-bit and 2-bit Characters](src/leetcode/717_1-bit_and_2-bit_Characters) |, |__|
